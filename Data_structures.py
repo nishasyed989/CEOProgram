@@ -10,7 +10,7 @@ import random
 
 def name_generator(first_list, last_list):
     "should combine first and second lists"
-    first = first_listxx
+    first = first_list
     last = last_list
     return f"{random.choice(first)} {random.choice(last)}"
 
